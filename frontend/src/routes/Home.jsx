@@ -1,11 +1,14 @@
 import React from 'react'
+import Navbar from '../components/navbar'
 
 const Home = () => {
   return (
     <div>
-      chinguu
+      <Navbar />
     </div>
   )
 }
 
 export default Home
+
+
