@@ -21,7 +21,7 @@ ul{
 }
 
 .btn{
-    padding: 20px 34px;
+    padding: 18px 28px;
     font-size: 1.2rem;
     text-transform: uppercase;
     background: turquoise;
@@ -32,7 +32,7 @@ ul{
 }
 
 .btn-light{
-    padding: 20px 34px;
+    padding:  18px 28px;
     font-size: 1.2rem;
     text-transform: uppercase;
     background: transparent;

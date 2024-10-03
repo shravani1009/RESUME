@@ -1,47 +1,65 @@
-.footer{
+.footer {
     width: 100%;
-    padding: 6rem 0;
-    background-color: rgba(19,19,19,0.8);
-}
-
-.footer-container{
-    max-width: 114px;
+    padding: 4.2rem 0;
+    background-color: rgba(19, 19, 19, 0.8);
+  }
+  
+  .footer-container {
+    max-width: 1140px;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 40px;
-}
-
-.left{
-    height: 100%;
-    max-width: 100%;
+    display: flex; /* Use flexbox instead of grid for better alignment */
+    justify-content: space-between; /* Ensures space between left and right sections */
+    align-items: center; /* Vertically center both sections */
+  }
+  
+  .left, .right {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-}
-
-.location{
+  }
+  
+  .left {
+    padding-left: 2rem;
+  }
+  
+  .location, .phone, .email {
     display: flex;
-    margin-bottom: 0.8rem;
-}
-
-.location p{
-    line-height: 30px;
-}
-
-.right{
-    height: 100%;
-    max-width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    color: #fff;
+    margin-right: 1rem; /* Adjust icon spacing */
+    font-size: 30px; /* Slightly increase the size for better visibility */
+  }
+  
+  p {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  .right {
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
-
-
-.social{
-    margin-top: 1rem;
-}
-
-h4{
-    font-size: 1rem;
-}
+    align-items: center;
+  }
+  
+  .right .social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right .social p {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  
+  .right .social .icon {
+    margin-right: 1rem;
+    font-size: 30px; /* Larger size for social icons */
+  }
+  
+  .right .social .icon:last-child {
+    margin-right: 0;
+  }
+  
