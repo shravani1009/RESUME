@@ -1,11 +1,15 @@
 import React from 'react'
+import Navbar from '../components/navbar'
+import Footer from '../components/Footer'
+import HEROimg from '../components/HEROimg'
 
 const About = () => {
   return (
     <div>
-      <h1>
-      hehehr
-      </h1>
+       <Navbar/>
+       <HEROimg heading = "ABOUT" />
+       <Footer/>
+
     </div>
   )
 }

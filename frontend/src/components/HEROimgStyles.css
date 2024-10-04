@@ -1,7 +1,7 @@
 .hero-img {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 130vh;
+    height: 100vh;
     position: relative;
   }
   
@@ -31,10 +31,20 @@
   }
   
   .hero-img h1{
-    font-size: 2.4rem;
+    font-size: 3.8rem;
   }
 
   .hero-img p{
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     text-align: center;
+  }
+  @media screen and (max-width: 640px) {
+    .hero-img h1{
+        font-size: 2.4rem;
+    }
+
+    .hero-img p{
+        font-size: 1.4rem;
+    }
+    
   }
