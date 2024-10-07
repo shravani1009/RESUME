@@ -1,3 +1,5 @@
+
+
 .project-container {
     max-width: 1140px;
     margin: auto;
@@ -5,6 +7,11 @@
     grid-template-columns: repeat(3, 1fr); /* Three columns */
     grid-gap: 40px; /* Space between the cards */
     padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+.project-heading{
+    text-align: center;
     padding-top: 2rem;
 }
 
