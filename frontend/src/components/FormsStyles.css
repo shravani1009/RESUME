@@ -1,23 +1,129 @@
-label{
-    color: #fff;
-    margin-bottom: 0.5rem;
+/* Styles for the Form Component */
+.form {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 2rem auto; /* Center the form with top and bottom margin */
+    padding: 2rem; /* Padding inside the form */
+    background-color: #ffffff; /* White background for clarity */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-form{
+/* Label Styling */
+label {
+    font-size: 1.2rem; /* Font size for labels */
+    margin-bottom: 0.5rem; /* Space between label and input */
+    display: block; /* Make labels block elements */
+    color: #333; /* Darker color for better readability */
+}
+
+/* Input and Textarea Styling */
+input, textarea {
+    width: 100%; /* Full width inputs */
+    padding: 0.8rem; /* Increased padding for inputs */
+    margin-bottom: 1.5rem; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Font size for inputs */
+    color: #333; /* Dark color for text */
+    background-color: #f9f9f9; /* Light background for inputs */
+}
+
+/* Focus Effect for Inputs */
+input:focus, textarea:focus {
+    border-color: #0077b5; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    background-color: #ffffff; /* Change background on focus */
+}
+
+/* Button Styling */
+.btn {
+    padding: 0.7rem 1.5rem; /* Padding for the button */
+    background-color: #0077b5; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 1.1rem; /* Font size for button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.btn:hover {
+    background-color: #005f8f; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+.footer {
+    width: 100%;
+    padding: 4.2rem 0;
+    background-color: rgba(19, 19, 19, 0.8); /* Semi-transparent background */
+}
+
+.footer-container {
+    max-width: 1140px; /* Maximum width for the footer */
+    margin: auto; /* Center the footer */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between the left and right sections */
+    align-items: center; /* Vertically center both sections */
+}
+
+.left, .right {
     display: flex;
-    flex-direction: column;
-    padding: 4rem 1rem;
-    margin: auto;
-    max-width: 600px;
+    flex-direction: column; /* Stack elements vertically */
 }
 
-form input,form textarea{
-    margin-bottom: 1rem;
-    padding: 10px 18px;
-    font-size: 1.2rem;
-    background-color: rgba(255,255, 255,0.1);
-    border-color: rgba(255,255, 255,0.1);
-    color: #f4f4f4;
+.left {
+    padding-left: 2rem; /* Padding for the left section */
+}
 
+.location, .phone, .email {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Vertically center the items */
+    margin-bottom: 1rem; /* Space between items */
+}
 
+.icon {
+    color: #fff; /* White color for icons */
+    margin-right: 2.5rem; /* Increased space between icon and text */
+    font-size: 30px; /* Icon size */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.icon:hover {
+    color: #0077b5; /* Example hover color (LinkedIn blue) */
+}
+
+p {
+    color: #fff; /* White text color */
+    font-size: 1.2rem; /* Font size for paragraphs */
+}
+
+.right {
+    display: flex; /* Flexbox for the right section */
+    align-items: center; /* Vertically center items */
+}
+
+.right .social {
+    display: flex; /* Flexbox for social icons */
+    align-items: center; /* Vertically center the icons */
+}
+
+.right .social p {
+    margin-right: 1rem; /* Space between text and icons */
+    font-size: 1.3rem; 
+    color: #fff; 
+}
+
+.right .social .icon {
+    margin-right: 2.5rem; /* Increased space between icons */
+    font-size: 30px; /* Size for social icons */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+    padding: 0.1rem;
+}
+
+.right .social .icon:hover {
+    transform: scale(1.2); 
+}
+
+.right .social .icon:last-child {
+    margin-right: 0; /* Remove margin for the last icon */
 }

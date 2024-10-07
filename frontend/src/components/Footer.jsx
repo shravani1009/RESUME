@@ -24,9 +24,15 @@ const Footer = () => {
         <div className="right">
           <div className="social">
             <p>Find me on!</p>
-            <FaGithub className="icon" />
-            <FaLinkedin className="icon" />
-            <FaTwitter className="icon" />
+            <a href="https://github.com/shravani1009" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="icon" />
+            </a>
+            <a href="https://linkedin.com/in/shravani-shinde-/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="icon" />
+            </a>
+            <a href="https://twitter.com/shrav10" target="_blank" rel="noopener noreferrer">
+              <FaTwitter className="icon" />
+            </a>
           </div>
         </div>
       </div>
