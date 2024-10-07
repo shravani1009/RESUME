@@ -1,0 +1,112 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3rem;
+    background-color: #100f0f;
+  }
+  
+  .about .left {
+    flex: 1 1 40%;
+    padding: 2rem;
+    text-align: left;
+  }
+  
+  .about .left h1 {
+    font-size: 2.5rem;
+    color: #f3ebeb;
+    margin-bottom: 1rem;
+  }
+  
+  .about .left p {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #f3ebeb;
+  }
+  
+  .about .right {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+  }
+  
+  .img-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden; /* Ensure nothing overflows outside the container */
+  }
+  
+  .img-stack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    top: 0; /* Keep both images aligned to the top of the container */
+  }
+  
+  .img-stack.top {
+    z-index: 10;
+    transform: translateY(-20px); /* Adjust this for visible stack */
+  }
+  
+  .img-stack.bottom {
+    z-index: 5;
+    opacity: 0.85;
+    transform: translateY(20px); /* Adjust this for visible stack */
+  }
+  
+  .img-container:hover .top {
+    transform: translateY(0);
+  }
+  
+  .img-container:hover .bottom {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn {
+    background-color: #00b4d8;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0077b6;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about {
+      flex-direction: column;
+    }
+  
+    .about .left,
+    .about .right {
+      flex: 1 1 100%;
+    }
+  
+    .img-container {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
