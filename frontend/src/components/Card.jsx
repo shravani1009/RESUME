@@ -2,6 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import "./CardStyles.css";
 import coffee from "../assets/coffee.jpg"
+import amazon from "../assets/amazon.jpeg"
+
 const Card = () => {
   return (
     <div>
@@ -9,10 +11,10 @@ const Card = () => {
             <h1 className='project-heading'>Projects</h1>
             <div className='project-container'>
                 <div className='project-card'>
-                    <img src= {coffee} alt="image"></img>
-                    <h2 className='project-title'>Project Title</h2>
+                    <img src= {amazon} alt="image"></img>
+                    <h2 className='project-title'>Amazon Dupe</h2>
                     <div className='pro-details'>
-                        <p>This is a text</p>
+                        <p>I created an Amazon dupe as one of my first projects using HTML, CSS, and JavaScript , it successfully replicated the core features and layout of the e-commerce platform.</p>
                         <div className='pro-btns'>
                             <NavLink to = "url.com" className="btn">View</NavLink>
 
@@ -21,9 +23,10 @@ const Card = () => {
                 </div>
                 <div className='project-card'>
                     <img src= {coffee} alt="image"></img>
-                    <h2 className='project-title'>Project Title</h2>
+                    <h2 className='project-title'>Retail-price-optimization</h2>
                     <div className='pro-details'>
-                        <p>This is a text</p>
+                        <p>
+                        This project uses machine learning for retail price optimization, predicting customer satisfaction to develop dynamic pricing strategies that boost sales and satisfaction. </p>
                         <div className='pro-btns'>
                             <NavLink to = "url.com" className="btn">View</NavLink>
 
@@ -32,9 +35,9 @@ const Card = () => {
                 </div>
                 <div className='project-card'>
                     <img src= {coffee} alt="image"></img>
-                    <h2 className='project-title'>Project Title</h2>
+                    <h2 className='project-title'>Paytm</h2>
                     <div className='pro-details'>
-                        <p>This is a text</p>
+                        <p>I plan to create a full-stack website similar to Paytm using the MERN stack, incorporating various features to enhance functionality and user experience.</p>
                         <div className='pro-btns'>
                             <NavLink to = "url.com" className="btn">View</NavLink>
 
