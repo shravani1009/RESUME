@@ -76,16 +76,16 @@ input:focus, textarea:focus {
 }
 
 .location, .phone, .email {
-    display: flex; /* Flexbox for alignment */
-    align-items: center; /* Vertically center the items */
-    margin-bottom: 1rem; /* Space between items */
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 1rem; 
 }
 
 .icon {
-    color: #fff; /* White color for icons */
-    margin-right: 2.5rem; /* Increased space between icon and text */
-    font-size: 30px; /* Icon size */
-    transition: color 0.3s; /* Smooth transition for hover effect */
+    color: #fff; 
+    margin-right: 2.5rem; 
+    font-size: 30px; 
+    transition: color 0.3s; 
 }
 
 .icon:hover {
@@ -93,30 +93,30 @@ input:focus, textarea:focus {
 }
 
 p {
-    color: #fff; /* White text color */
-    font-size: 1.2rem; /* Font size for paragraphs */
+    color: #fff; 
+    font-size: 1.2rem;
 }
 
 .right {
-    display: flex; /* Flexbox for the right section */
-    align-items: center; /* Vertically center items */
+    display: flex; 
+    align-items: center; 
 }
 
 .right .social {
-    display: flex; /* Flexbox for social icons */
-    align-items: center; /* Vertically center the icons */
+    display: flex; 
+    align-items: center; 
 }
 
 .right .social p {
-    margin-right: 1rem; /* Space between text and icons */
+    margin-right: 1rem;
     font-size: 1.3rem; 
     color: #fff; 
 }
 
 .right .social .icon {
-    margin-right: 2.5rem; /* Increased space between icons */
-    font-size: 30px; /* Size for social icons */
-    transition: transform 0.3s; /* Smooth transition for hover effect */
+    margin-right: 2.5rem;
+    font-size: 30px; 
+    transition: transform 0.3s; 
     padding: 0.1rem;
 }
 
@@ -125,5 +125,5 @@ p {
 }
 
 .right .social .icon:last-child {
-    margin-right: 0; /* Remove margin for the last icon */
+    margin-right: 0; 
 }
