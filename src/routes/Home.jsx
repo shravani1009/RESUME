@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import Heroimage from '../components/Heroimage'
 import Footer from '../components/Footer'
-import Experience from '../components/experience'
+import Experience from '../components/Experience'
 
 const Home = () => {
   return (
