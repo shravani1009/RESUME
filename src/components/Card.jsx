@@ -35,9 +35,9 @@ const Card = () => {
                 </div>
                 <div className='project-card'>
                     <img src= {coffee} alt="image"></img>
-                    <h2 className='project-title'>Paytm</h2>
+                    <h2 className='project-title'>Geo-Tracker Recommendation System</h2>
                     <div className='pro-details'>
-                        <p>I plan to create a full-stack website similar to Paytm using the MERN stack, incorporating various features to enhance functionality and user experience.</p>
+                        <p>This app is designed to recommend places based on user reviews.</p>
                         <div className='pro-btns'>
                             <NavLink to = "url.com" className="btn">View</NavLink>
 
