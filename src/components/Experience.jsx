@@ -31,7 +31,7 @@ const experience = () => {
         <div class="experience-item">
             <h3 class="job-title">Full Stack Developer</h3>
             <p class="company-name">Mersate</p>
-            <p class="job-description">I was responsible for the complete UI design of various projects, overseeing everything from initial concepts to prototyping using Figma. </p>
+            <p class="job-description"> </p>
         </div>
     
      </div>
